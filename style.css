@@ -1,0 +1,437 @@
+
+
+:root {
+    --logoColor: #072AC8;
+    --lightBlue: #43D2FF;
+    --backgroundColor: #A2D6F9;
+    --darkOne: #D1EDFF;
+    --darkTwo: #292E47;
+    --greyOne: #6B708D;
+    --lightTwo: #F2F4FC;
+    --other: #ECF7FF;
+    --mustard: #FFC600;
+  }
+/* ---- Reset Css ---- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #F4F6FC;
+}
+
+/* ---- Navigation ---- */
+/*
+header {
+    Width: 1440px;
+    Height: 122px;
+}
+*/
+/*
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+*/
+.wrapper {
+    
+    width: 80%;
+    margin: auto;
+}
+
+.nav-container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0px 60px;
+}
+
+.nav-items li, a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #6B708D;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-items li a.active{
+    color: #43D2FF;
+}
+
+.nav-items li a:hover {
+    color: #072AC8;
+}
+
+.primary{
+    background-color: #072AC8;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: white;
+    padding: 15px 33px;
+}
+
+button:hover {
+    background-color: #6B708D;
+}
+
+
+/* ---- Footer ---- */
+
+footer .wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+
+.nav-footer {
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+.nav-link {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    list-style: none;
+}
+
+.nav-link li, a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #6B708D;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-link li a:hover {
+    color: #072AC8;
+}
+/* ---- Header ---- */
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+
+
+/* ---- Hero Content ---- */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.hero-content h1 {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #292E47;
+    width: 530px;
+    margin-bottom: 30px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    line-height: 150%;
+    color: #6B708D;
+    width: 435px;
+    margin-bottom: 40px;
+}
+.hero {
+    height: 650px;
+}
+
+.hero-image {
+    position: relative;
+}
+
+.hero-content {
+    max-width: 450px;
+}
+.card1 {
+    position: absolute;
+    left: -19%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    max-width: 375px;
+}
+
+.card2 {
+    position: absolute;
+    left: auto;
+    top: auto;
+    right: -25%;
+    bottom: -22%;
+    max-width: 375px;
+}
+.btnPrimaryHero{
+    margin-left: 16px;
+}
+/* ---- Social Icons ---- */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 96px;
+    margin: 60px auto;
+    padding: 0 150px;
+}
+
+.social.icons a {
+    margin: 0 24px;
+}
+
+/* ---- Recent Projects ---- */
+
+.container-projects {
+    display: flex;
+    justify-content:center ;
+    margin: 60px;
+    padding: 0 150px;
+    margin-bottom: 200px;
+}
+ .project-h2 {
+    margin-bottom: 70px;
+    font-size: 40px;
+    margin-left: 170px;  
+}
+
+.box1 {
+    width: 340px;
+    height: 444px;
+    margin-left: 60px;
+    background-color: white;
+    box-shadow: 0px 38.7755px 77.551px rgba(0, 0, 0, 0.1);
+}
+.tgt1 {
+    margin: 20px 25px;
+    
+}
+.tgt1 h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #292E47;
+    margin-bottom: 10px;
+}
+
+.tgt1 p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #6B708D;
+    margin-bottom: 54px;
+}
+
+.tgt a {
+
+}
+
+
+
+
+
+/* ---- Contact Page ------*/
+
+
+.contact-form{
+
+    margin: auto;
+    text-align: center;
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.contact-form h1 {
+    font-weight: 700, bold;
+}
+
+.wrapper label {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 400;
+    color: #6B708D;
+}
+
+.wrapper input, .wrapper textarea {
+    width: 100%;
+
+}
+
+.bckg {
+    background-color: #6B708D;
+    color: white;
+    padding: 20px 15px;
+}
+
+/* ---- Our Services ---- */
+
+.client_reviews {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--darkTwo);
+    background-image: url("project-assets/testimonial-section/orbit.png");
+    background-position: relative;
+    margin: 60px;
+    padding: 0 150px;
+    margin-bottom: 200px;
+  }
+  .client_reviews p {
+    color: var(--mustard);
+    font-size: 20px;
+    font-weight: 500, medium;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .client_reviews h3 {
+    color: #F4F6FC;
+    font-weight: 700, bold;
+    font-size: 40px;
+    margin-top: 60px;
+   
+  }
+
+  .memoji {
+    height: 150px;
+    width: 150px;
+  }
+  .emoji_one {
+    position: absolute;
+    bottom: -650px;
+    left: 80px;
+  }
+  .emoji_two{
+    position: absolute;
+    bottom: -1010px;
+    left: 80px;
+  }
+  .emoji_three {
+    position: absolute;
+    bottom: -650px;
+      right: 80px;
+  }
+  .emoji_four {
+    position: absolute;
+      bottom: -1010px;
+      right: 80px;
+  }
+
+  .client_widget {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:30px;
+      
+  }
+
+ .profile_widget_image{
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     object-fit: cover;
+ }
+
+ .profile_name {
+    color:#A2D6F9;
+    margin-left:10px;
+ }
+
+ .website_booking {
+     color: #F4F6FC;
+ }
+
+ /* ---- Our services --- */
+
+ .container-services {
+    display: flex;
+    justify-content:center ;
+    margin: 60px;
+    padding: 0 150px;
+    margin-bottom: 200px;
+}
+ .services-h2 {
+    margin-bottom: 70px;
+    font-size: 40px;
+    margin-left: 170px;  
+}
+
+.box2 {
+    width: 340px;
+    height: 380px;
+    margin-left: 60px;
+    background-color: white;
+}
+.tgt2 {
+    margin: 20px 25px;
+    
+}
+.tgt2 h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #292E47;
+    margin-bottom: 10px;
+}
+
+.tgt2 p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 150%;
+    color: #6B708D;
+    margin-bottom: 36px;
+}
+
+.tgt a {
+
+}
+
+
+
+
+
+
+
+
+
